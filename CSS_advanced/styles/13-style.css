@@ -3,13 +3,20 @@ html
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
-body, a[href]:visited, a:hover, a:active
+body, 
+a[href]:link,
+a:visited, 
+a:hover, 
+a:active
 {
     color: var(--text-color);
     text-decoration: none;
     font-style: italic;
-    text-decoration: underline;
     background-color: var(--color-light-grey);
+}
+a:hover
+{
+    text-decoration: underline;
 }
 .visually-hidden
 {
