@@ -280,7 +280,8 @@ ul.row {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
-    transition: all var(--transition-duration) var(--transition-cubic-bezier);
+    transition-property: background-color, color;
+    transition-duration: var(--transition-duration);
 }
 
 .section-hero 
