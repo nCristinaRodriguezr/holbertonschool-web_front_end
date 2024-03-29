@@ -176,7 +176,3 @@ ul.row
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
 }
-[data-section-theme="dark"] 
-{
-    --button-color: var(--color-white);
-}
